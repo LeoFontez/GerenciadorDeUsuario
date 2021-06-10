@@ -16,7 +16,7 @@
 	Código: <input type="text" name="txtcodigo" value="${usuario.codigo }"readonly><br><br>
 	Nome: <input type="text" name="txtnome" value="${usuario.nome }" required><br><br>
 	Data Nascimento: <input type="date" name="txtdatanascimento"
-		 value='<fmt:formatDate value="${usuario.dataNascimento}" pattern="yyyy/MM/dd" />'><br><br>
+		 value='<fmt:formatDate value="${usuario.dataNascimento}" pattern="yyyy/MM/dd" />'required><br><br>
 	Usuário: <input type="text" name="txtusuario" value="${usuario.usuario }" required><br><br>
 	Senha: <input type="password" name="txtsenha" value="${usuario.senha }" required><br><br>
 	
